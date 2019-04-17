@@ -1,8 +1,11 @@
 [package]
 name = "local-edf-reader"
+description= "A library for reading metadata and data from an local EDF (European Data Format) file."
 version = "0.1.0"
-authors = ["Maxime Leprince <maxime.leprince@bioserenity.com>"]
+authors = ["Maxime Leprince <maxime.leprince@gmail.com>"]
 edition = "2018"
+license = "MIT"
+repository = "https://github.com/mleprince/rust-local-edf-reader"
 
 [dependencies]
 edf-reader="0.4.0"
